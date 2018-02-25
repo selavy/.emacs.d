@@ -4,6 +4,3 @@
 [submodule "site-lisp/dash.el"]
 	path = site-lisp/dash
 	url = https://github.com/magnars/dash.el
-[submodule "magit-popup"]
-	path = site-lisp/magit-popup
-	url = https://github.com/magit/magit-popup
