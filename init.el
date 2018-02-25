@@ -12,3 +12,7 @@
       `((".*" . ,temporary-file-directory)))
 (setq auto-save-file-name-transforms
       `((".*" ,temporary-file-directory t)))
+
+;; better-defaults
+(add-to-list 'load-path "./site-lisp/better-defaults")
+(require 'better-defaults)
