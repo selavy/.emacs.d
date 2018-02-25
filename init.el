@@ -1,5 +1,6 @@
 ;; turn off startup screen
-(inhibit-startup-screen 1)
+(setq inhibit-startup-screen 1)
+(setq inhibit-startup-message t)
 
 ;; no tabs
 (setq-default indent-tabs-mode nil)
