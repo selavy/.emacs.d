@@ -15,6 +15,10 @@
 (add-pkg-path "dash")
 (require 'dash)
 
+;; magit-popup
+(add-pkg-path "magit-popup")
+(require 'magit-popup)
+
 ;; indent 4 spaces, and set indent style
 (setq c-default-style "stroustrup" c-basic-offset 4)
 
