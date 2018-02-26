@@ -50,3 +50,5 @@
 ;; indent 4 spaces, and set indent style
 (setq c-default-style "stroustrup" c-basic-offset 4)
 
+(global-linum-mode t)
+
