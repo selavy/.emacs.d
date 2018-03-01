@@ -38,6 +38,7 @@
    '(magit
      smex
      material-theme
+     elpy
      )))
 
 (condition-case nil
@@ -46,7 +47,11 @@
    (package-refresh-contents)
    (init--install-packages)))
 
+;; initial packages
 (smex-initialize)
+(elpy-enable)
+(setq python-shell-interpreter "ipython"
+      python-shell-interpreter-args "-i --simple-prompt")
 
 (load-theme 'material t)
 
