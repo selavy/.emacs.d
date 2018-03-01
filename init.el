@@ -37,6 +37,7 @@
   (packages-install
    '(magit
      smex
+     material-theme
      )))
 
 (condition-case nil
@@ -46,6 +47,8 @@
    (init--install-packages)))
 
 (smex-initialize)
+
+(load-theme 'material t)
 
 ;; indent 4 spaces, and set indent style
 (setq c-default-style "stroustrup" c-basic-offset 4)
